@@ -1,25 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class VisualCardsHandler : MonoBehaviour
 {
-
-    public static VisualCardsHandler instance;
+    public static VisualCardsHandler instance; // 单例模式实例
 
     private void Awake()
     {
-        instance = this;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+        instance = this; // 初始化单例
     }
 
-    // Update is called once per frame
+    void Start()
+    {
+        // 启动时的初始化逻辑（当前为空）
+    }
+
     void Update()
     {
-        
+        // 每帧更新逻辑（当前为空）
     }
 }
